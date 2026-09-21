@@ -2,9 +2,8 @@
 
 A street lamp that adjusts its own brightness to the ambient light around it. A light dependent resistor (LDR) senses the light level, an ESP32 microcontroller reads it, and the lamp's LEDs are brightened or dimmed accordingly, so energy is used only when the light is actually needed.
 
-Minor project for **Analog Circuits (UES301)**, Electrical Engineering, Thapar Institute of Engineering & Technology (TIET), Patiala, July–December 2024.
+Project for **Analog Circuits (UES301)**, Electrical Engineering, Thapar Institute of Engineering & Technology (TIET), Patiala, July–December 2024.
 
-**Team:** Aashray Sharma, Parth Gupta, Tanav Pathak
 **Supervisor:** Dr. Sangeeta Kamboj, Assistant Professor (EIED)
 
 ## How it works
@@ -61,8 +60,7 @@ The LDR divider is 3V3 → LDR → A0 → resistor → GND, and each LED has its
 │   └── street_lamp/
 │       └── street_lamp.ino               # ESP8266 / ESP32 sketch
 ├── report/
-│   ├── Street_Lamp_Project_Report.docx   # full project report (editable)
-│   └── Street_Lamp_Project_Report.pdf    # same report as PDF
+│   └── Street_Lamp_Project_Report.pdf  
 └── docs/
     ├── circuit_diagram.png               # breadboard wiring diagram
     └── block_diagram.png                 # system block diagram
